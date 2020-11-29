@@ -9,10 +9,10 @@ public class Test1 {
 	{
 		// System.setProperty("webdriver.chrome.driver", "E:\\TESTING\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://sites.google.com/a/chromium.org/chromedriver/");
+		driver.get("http://qshell.bluecherry.com/BCQAM_QShell/CGS_PQA/PQA/WEB/#/login");
 		//driver.get("https://facebook.com");
 		System.out.println(driver.getTitle());
-		driver.quit();
+		//driver.quit();
 		
 
 	}
