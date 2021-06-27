@@ -19,11 +19,12 @@ public class BCQAM {
 		driver.manage().window().maximize();
 		//driver.get("https://facebook.com");
 		System.out.println(driver.getTitle());
+		Thread.sleep(2000);
 		driver.findElement(By.id("inputEmail3")).sendKeys("ADMIN");
 		driver.findElement(By.id("inputPassword3")).sendKeys("jsmith");
 		driver.findElement(By.cssSelector(".btn-primary")).click();
 	
-		Thread.sleep(2000);
+	/*	Thread.sleep(2000);
 		WebElement vendordrop=driver.findElement(By.xpath("//*[@id=\"content\"]/div/ng-view/div/div/div/div[1]/div[2]/form/div[2]/div/div/select"));
 		
 		Select drop=new Select(vendordrop);
@@ -38,7 +39,7 @@ public class BCQAM {
 		Thread.sleep(6000);
 		driver.findElement(By.xpath("//li[contains(text(),'Cosmo')]")).click();    
 		
-		
+		*/
 		
 		//inspection creation
 	/*	driver.findElement(By.xpath("//body/div[@id='content']/div[1]/ng-view[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/span[1]/span[1]")).click();
